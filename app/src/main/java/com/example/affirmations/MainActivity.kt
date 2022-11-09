@@ -11,5 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //val textView: TextView = findViewById(R.id.textView);
         //textView.text = Datasource().loadAffirmations().size.toString()
+
+        //Initialize data
+        val myDataset = Datasource().loadAffirmations()
+        //val recyclerView =
     }
 }
